@@ -3,7 +3,7 @@ import uvicorn
 
 app = FastAPI()
 
-# Changed from .post to .get
+# Changed from .post to .get file 
 @app.get("/")
 async def hello():
     return {"message": "Hello, World!"}
